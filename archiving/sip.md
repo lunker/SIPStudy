@@ -129,8 +129,6 @@ ex) bob@bioloxi.com
 - 등록된 단말의 특정 주소  
 ex) bob@phone66.biloxi.com
 
-
-
 -	header의 expires 필드를 통해 ua의 정보를 얼마동안 유지할지 설정한다.  
 - **contact address(실제 단말의 주소)와 address of record(사용자 식별용 주소)를 바인딩 하는 과정.**  
 
@@ -139,7 +137,6 @@ ex) bob@phone66.biloxi.com
 - registrar는 401 or 407 unauthorized + nonce값을 클라이언트에 전송한다.  
 - client는 서버에게 받은 nonce값과 자신이 가지고 있는 값을 공식을 토대로 변형하여 서버측에 response 값을 전송한다.  
 - 서버는 요구한 값이 올바르면 클라이언트에게 200ok를
-
 
 SIP URI
 -------
@@ -157,7 +154,7 @@ SIP URI
 - invite에 대해서는 407 proxy auth req 에러 메세지를 전송한다.  
 register나 redirect의 경우에는 401 unauthorized
 - 만약 proxy server가 1대가 아니라 여러대가 있다면, 각각에 대해서 UAC가 다 인증을 거쳐야한다.  
-- 
+-
 
 
 

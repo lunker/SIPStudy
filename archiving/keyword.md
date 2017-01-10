@@ -26,14 +26,14 @@
 -	server relflexive address : nat 장비가 매핑한 클라이언트의 public address  
 -	dns srv record  
 -	tls  
-
+- stateless proxy, stateful proxy
 
 **개발**  
 - spring에서 web.xml의 기능 및 작동방식   
 
 **SipServlet**  
 - SIPTransactionStack
-- 
+-
 
 꼭 봐야 할 부분들
 =================

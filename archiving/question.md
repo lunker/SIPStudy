@@ -1,7 +1,5 @@
 궁금한것
 ========
-
-
 **해결**  
 ---
 
@@ -14,7 +12,6 @@
 	A. Via는 SIP Response를 정확히 Request Path와 반대로 보내기 위하여 존재한다.  
 	proxy server를 거쳐서 보낼 때, proxy server가 sip message에 자신의 주소를 via 필드에 추가해서 보낸다.  
 
-
 **질문**  
 ---
 
@@ -26,5 +23,9 @@ sip에는 빠져 있는데 원래는 407을 발행하여 다시 INVITE를 보내
 
 - sipservlet에서 addressheader와 그냥 header의 차이
 
+- Q. 전화를 걸다가 어느정도 응답이 없으면 안내 메세지나 끊기는게 있는데
+이거는 INVITE의 설정으로 할 수 있는것인지, client에서 시간을 재서 체크하는 것인지 ?
 
-- sipservlet에서 sipservletrequest.getFrom.getURI()와 ddd.getTo().getURI()가 같은 값이 나온다.(From으로)
+- Q. to, from, request-uri 의 차이?
+
+- Q. INVITE 후 cancel을 하려고 할 때, response가 발행되기 전에 cancel을 할 수 있다.  그러면 이 response는 어떤것에 해당되는가??
