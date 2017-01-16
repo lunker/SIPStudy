@@ -1,4 +1,4 @@
-# proxy
+# proxy(rfc 3261, section 16)
 
 
 ### proxy behavior

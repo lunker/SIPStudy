@@ -1,12 +1,12 @@
-# CANCEL
+# CANCEL(rfc 3261, section 9)
 
-### CANCEL behavior
+### Overview
 - client가 전송한 request를 취소할 때 사용한다.
 - uas가 이미 final response를 보냈을 경우에는 소용이 없다
 - INVITE의 경우, invite에 대해서 cancel을 보내면 ringing을 멈추고, invite에 대해서 487 error response를 발행한다.
 ---
 
-#### client behavior  
+#### client behavior(section 9.1)
 - INVITE에 대해서만 사용하도록 한다. 다른 method들은 반응이 즉시 일어나기 때문에, cancel의 사용은 race condition을 만들게 된다.  
 - CANCEL request의 header는 취소할 기존 request의 header field(request-uri, call-id, to, cseq, from)가 동일해야 한다.  
 - cancel request를 생성한다.
