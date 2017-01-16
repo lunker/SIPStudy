@@ -34,7 +34,7 @@
 5) Processing the Request  
 
 6) Generating Response(section 8.2.6)
-- 
+- INVITE Method에만 Provisional Response를 사용하고, 나머지 Method들에서는 Final Response를 바로 발행하여라.  
 ---
 
 #### uac behavior(rfc 3261, section 8.1)
