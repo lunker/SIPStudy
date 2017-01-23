@@ -28,9 +28,6 @@
 -	tls  
 - stateless proxy, stateful proxy
 
-**개발**  
-- spring에서 web.xml의 기능 및 작동방식   
-
 **SipServlet**  
 - SIPTransactionStack
 -

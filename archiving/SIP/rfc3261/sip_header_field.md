@@ -4,8 +4,6 @@
 ### Request-URI  
 - initial : **TO**  field와 같은 값으로 설정.  
 - 단, **REGISTER** 일경우에는 예외.  
-
-
 - next hop or proxdyt server uri를 의미한다.(최종 목적지라기 보다는 중간 중간 거쳐야 할 다음 장소를 의미.)  
 즉, used to select routes across the network to find the destination. 반면, To header는 refers to the destination user uri. (실제 목적지)
 
